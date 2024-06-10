@@ -1,0 +1,188 @@
+
+
+        .title{
+            text-align: center;
+        }
+        .bg-black {
+            background-color: black; 
+
+
+        }
+
+        .white-box {
+            background-color: white;
+            border: 1px solid #ccc;
+            padding: 10px;
+            width: 200px; /* Adjust size as needed */
+            height: 100px; /* Adjust size as needed */
+            margin: 20px auto; /* Center the box horizontally */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+            border-radius: 5px; /* Optional: Add rounded corners */
+        }
+
+        .bg-whitf {
+            background-color: white; /* Red color */
+        }
+        
+        .bg-custom-color2 {
+            background-color: #00ff00; /* Green color */
+        }
+
+        .bg-black{
+            background-color: black;
+        }
+
+        .bronze-package{
+            background-color: grey;
+
+        }
+
+        .silver-package{
+            background-color: gainsboro;
+        }
+
+        .gold-package{
+            background-color: silver;
+        }
+
+        .services-page{
+            background-color: darkgray;
+        }
+
+        .overlay-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a background color for better readability */
+            padding: 10px; /* Optional: Add padding */
+            border-radius: 5px; /* Optional: Add rounded corners */
+        }
+    
+        .logo {
+            position: absolute;
+            top: 10px; /* Adjust this value to adjust vertical position */
+            left: 10px; /* Adjust this value to adjust horizontal position */
+            max-width: 60px; /* Adjust this value as per your logo size */
+            z-index: 1000; /* Ensure the logo stays on top of other elements */
+        }
+
+        .services{
+        align-items: left;
+        top:10 px;
+        left: 10 px;
+        max-height: 200px;
+        max-width: 300px;
+        }
+
+        .service-main-image{
+            max-width: 514px;
+        }
+        
+        .reviews-images{
+            max-width: 300px;
+            max-height: 300px;
+        }
+
+        .image-container img {
+                float: right;
+                margin: 0 0 10px 10px; /* Adjust spacing around the image */
+                max-width: 50%; /* Adjust the width as needed */
+        }
+
+        .full-screen-background {
+                
+                
+            background-position: center; 
+            width: 100%;
+            height: 100%;
+            top: 100px;
+                
+        }
+            .contact-us-icons{
+            width: 80px; 
+            height: 80px;
+            margin-right:1000px; 
+        }
+
+            .container1 {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+            .firstnamebox {
+            position: absolute;
+            bottom: 600px;
+            left: 400px;
+        }
+
+            .lastnamebox{
+            position: absolute;
+            bottom: 600px;
+            left: 800px;
+
+        }
+
+            .emailbox{
+            position: absolute;
+            bottom: 450px;
+            left: 400px;
+
+        }
+
+            .phonebox{
+            position: absolute;
+            bottom: 450px;
+            left: 800px;
+
+        }
+
+            .textbox{
+            position: absolute;
+            bottom: 350px;
+            left: 650px;
+            
+        }
+
+            .contact-us{
+            position: absolute;
+            bottom: 700px;
+            left: 650px;
+            font-size:xx-large;
+            
+
+        }
+
+            .submit-button{
+
+            position: absolute;
+            top: 100px;
+            left: 65px;
+
+        }
+
+
+            .fa {
+        padding: 10px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        margin-top: -200px;
+            }
+
+            
+        .footer-links 
+        {
+        display:block;
+        margin-left: -1430px;
+        
+
+
+        }
+
+        .footer-links a{
+            color:white;
+            text-decoration: none;
+        }

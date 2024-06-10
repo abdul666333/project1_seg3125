@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <title>Shelly express detailing</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+
+
+<nav class="navbar navbar-expand-lg bg-black navbar-dark py-3 fixed-top">
+        
+    <div class="container">
+        
+    <a href="booking_page.html">
+    <img src="https://i.pinimg.com/736x/04/c7/67/04c76710d9c781fe8acfe75b4bdc34db.jpg" class="logo" role="button">
+</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse show" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="Aboutuspage.html" class="nav-link">About us</a>
+          </li>
+          <li class="nav-item">
+            <a href="Servicespage.html" class="nav-link">Our services</a>
+          </li>
+          <li class="nav-item">
+            <a href="Contactpage.html" class="nav-link">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<section class="bg-black text-light bronze-package p-2 text-center">
+
+    
+
+    <h2 style="margin-top: 80px;">Your information</h2>
+    
+    <form>
+    <div class="mb-3">
+        <label style="width: 70px; margin-left: -65px;"for="firstName" class="form-label"></label>
+        <input type="text" id="firstName" placeholder="Enter your first name" required>
+    </div>
+
+    <div class="mb-3">
+        <label style="width: 70px; margin-left: -65px; margin-top: -100px;"for="lastName" class="form-label"></label>
+        <input type="text" id="lastName" placeholder="Enter your last name" required>
+    </div>
+    
+    <div class="mb-3">
+        <label style="width: 70px; margin-left: -65px; margin-top: -200px;"for="phone" class="form-label"></label>
+        <input type="text" id="phone" placeholder="Enter your phone" required>
+    </div>
+</section>
+
+
+<section class="bg-dark text-light bronze-package p-3 text-center">
+    <h3>Select your technician</h3>
+    
+    <div class="row justify-content-center">
+        <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card bg-light">
+                <div class="card-body text-dark">
+                    <img src="https://img.freepik.com/free-photo/front-view-portrait-businessman-with-glasses_23-2148816831.jpg" class="rounded-circle mb-3" alt="" style="width: 100px; height: 100px;">
+                    <input type="radio" id="John Smith" name="fav_language" value="HTML" required>
+                    <label for="John Smith">John Smith</label><br>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card bg-light">
+                <div class="card-body text-dark">
+                    <img src="https://pbs.twimg.com/media/FugMKQYaQAIDLm4.jpg:large" class="rounded-circle mb-3" alt="" style="width: 100px; height: 100px;">
+                    <input type="radio" id="Andrew James" name="fav_language" value="HTML" required>
+                    <label for="Andrew Jame">Andrew James</label><br>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card bg-light">
+                <div class="card-body text-dark">
+                    <img src="https://pdaphotography.com/wp-content/uploads/2018/07/PD4_8636-Edit-384x576.jpg" class="rounded-circle mb-3" alt="" style="width: 100px; height: 100px;">
+                    <input type="radio" id="Catherine Bani" name="fav_language" value="HTML" required>
+                    <label for="Catherine Bani">Catherine Bani</label><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <h2>Select Appointment date</h2>
+        <input type="datetime-local" class="form-control" id="appointmentDate" name="appointmentDate" required>
+
+    </div>
+
+
+    <a href="bookingconf.html" class="btn btn-primary btn-lg" type="submit">Book</a>
+</form>
+
+
+</section>
+
+<section id= "end" class="bg-black text-light bg-brown p-3 text-center">
+    <div class="container">
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="Aboutuspage.html">About us</a></li>
+              <li><a href="Servicespage.html">Our services</a></li>
+              <li><a href="Contactpage.html">Contact us</a></li>
+            </ul>
+            <a href="#" style="color: blue;" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" style="color:rgb(221, 42, 123)" class="fa fa-instagram"></a>
+            <h5 class="copyright-icon">© 2024 Copyright</h5>
+          </div>
+
+</section>
+    
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

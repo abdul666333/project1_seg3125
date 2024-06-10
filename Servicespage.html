@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <title>Shelly express detailing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-black navbar-dark py-3 fixed-top">
+        
+    <div class="container">
+        
+    <a href="Servicespage.html">
+    <img src="https://i.pinimg.com/736x/04/c7/67/04c76710d9c781fe8acfe75b4bdc34db.jpg" class="logo" role="button">
+    </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse show" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="Aboutuspage.html" class="nav-link">About us</a>
+          </li>
+          <li class="nav-item">
+            <a href="Servicespage.html" class="nav-link">Our services</a>
+          </li>
+          <li class="nav-item">
+            <a href="Contactpage.html" class="nav-link">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<section id="Our services" class="bg-custom-color1 text-dark services-page text-center" style="margin-top: 70px;">
+    
+    <h2 class="text-center">Our Services</h2>
+    <img src="https://detailxperts.com/wp-content/uploads/2012/08/Auto-Detailing-Supplies-Cleaning-Car-Headlights.jpg" class="service-main-image" alt="">
+
+    <section class="bg-custom-color1 text-dark bronze-package p-3 text-center" style="margin-top: 70px;">
+        <h2 class="text-center mb-4">Bronze package</h2>
+        <h4>- Full interior clean</h4>
+        <img src="https://www.jazzcarwash.com/wp-content/uploads/2023/03/shutterstock_2241164341.jpg" class="services"  alt="">
+        <h5>Price:$149</h5>
+        <h5>Service time: 1.5-2 hours</h5>
+        <button id="1" onclick="showSettingsPage()">Select</button>
+    </section>
+
+    <section class="bg-custom-color1 text-dark silver-package p-3 text-center">
+        <h2 class="text-center mb-4">Silver package</h2>
+        <h4>- Full interior clean</h4>
+        <h4>- Full exterior clean</h4>
+        <img src="https://premierdetailingandwash.com/wp-content/uploads/2023/03/161985140_m.jpg" class="services" alt="">
+        <h5>Price:$200</h5>
+        <h5>Service time: 3-4 hours</h5>
+        <a href="booking_page.html" target="_blank"><button id="2" onclick="getclick(this.id)">Select</button></a>
+    </section>
+
+    <section class="bg-custom-color1 text-dark gold-package p-3 text-center">
+        <h2 class="text-center mb-4">Gold package</h2>
+        <h4>- Full interior clean</h4>
+        <h4>- Full exterior clean</h4>
+        <h4>- Headlight restoration</h4>
+        <h4>- Polishing</h4>
+        <img src="https://ceramicpro.com/wp-content/uploads/2020/09/Using-An-Orbital-Polisher.jpeg" class="services" alt="">
+        <h5>Price: $300</h5>
+        <h5>Service time: 7-8 hours</h5>
+        <a href="booking_page.html" target="_blank"><button id="3" onclick="getclick(this.id)">Select</button></a>
+    </section>
+</section>
+
+
+<section id= "end" class="bg-black text-light bg-brown p-3 text-center">
+    <div class="container">
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="Aboutuspage.html">About us</a></li>
+              <li><a href="Servicespage.html">Our services</a></li>
+              <li><a href="Contactpage.html">Contact us</a></li>
+            </ul>
+            <a href="#" style="color: blue;" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" style="color:rgb(221, 42, 123)" class="fa fa-instagram"></a>
+            <h5 class="copyright-icon">© 2024 Copyright</h5>
+          </div>
+
+</section>
+
+<div id="Settingspage" style="display: none;">
+
+    
+    <input type="hidden" name="type" value="Settings">
+    <h1 class="title">Settings</h1>
+    <div class="textfield">
+        Notifications enabled: <input type="checkbox" id="Notificationscheckbox" name="Notifications" value="Notifications">
+        Celcius: <input type="checkbox" id="Celciuscheckbox" name="Celcius" value="Celcius">
+        Ferenhaint: <input type="checkbox" id="Ferenhaintcheckbox" name="Ferenhaint" value="Ferenhaint">
+       
+    </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+
+</body>
+</html>
